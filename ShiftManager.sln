@@ -12,6 +12,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ShiftManager\ShiftManager\ShiftManager.projitems*{0845116c-e49a-45e9-8744-fd570cd6c9f8}*SharedItemsImports = 4
+		ShiftManager\ShiftManager\ShiftManager.projitems*{1215025c-4e12-4522-bb48-3c5acac1f19b}*SharedItemsImports = 4
 		ShiftManager\ShiftManager\ShiftManager.projitems*{2c55b78c-bbc1-4e8f-ac8a-cccd2d39eb46}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
