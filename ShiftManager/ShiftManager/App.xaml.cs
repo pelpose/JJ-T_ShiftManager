@@ -1,4 +1,5 @@
-﻿using ShiftManager.Views;
+﻿using ShiftManager.UserAuth;
+using ShiftManager.Views;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -21,6 +22,11 @@ namespace ShiftManager
             {
                 Children =
                 {
+                    new NavigationPage(new Login())
+                    {
+                        Title = "Login",
+                        Icon = Device.OnPlatform<string>("tab_feed.png",null,null)
+                    },
                     new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse",
